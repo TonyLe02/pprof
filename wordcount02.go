@@ -20,8 +20,13 @@ func main() {
 
     // For å generee profiler; kun en aktivert av gangen
     //defer profile.Start(profile.CPUProfile, profile.ProfilePath(".")).Stop()
+<<<<<<< HEAD
     //defer profile.Start(profile.MemProfile, profile.ProfilePath(".")).Stop()
     defer profile.Start(profile.MemProfile, profile.MemProfileRate(1), profile.ProfilePath(".")).Stop()
+=======
+    defer profile.Start(profile.MemProfile, profile.ProfilePath(".")).Stop()
+    //defer profile.Start(profile.MemProfile, profile.MemProfileRate(1), profile.ProfilePath(".")).Stop()
+>>>>>>> 0aca81e56204213dc195747f7051a4e7f7bdc6fe
 
     f, err := os.Open(os.Args[1])
     if err != nil {
