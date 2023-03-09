@@ -2,7 +2,7 @@
 pprof for sem02 is-105 uia
 legg til en ny linje i README.md og lagre filen
 <<<<<<< HEAD
-Hei, dette er en test push.
+Hei, dette er en test push, jeg elsker mat.
 =======
 URL: http://localhost:8080
 # Oppgave forklaring
